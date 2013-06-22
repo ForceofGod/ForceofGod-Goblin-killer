@@ -53,10 +53,10 @@ public class PXGoblin extends ActiveScript implements PaintListener{
       
       private final Font font1 = new Font("Arial", 0, 18);
       
-      private final Image img1 = getImage("http://i45.tinypic.com/2qdpslk.png"); //Thank you CookieMonsta for the paint!
+      private final Image img1 = getImage("http://i45.tinypic.com/2qdpslk.png"); 
       
-
-      public void onRepaint(Graphics g1) {
+      
+        public void onRepaint(Graphics g1) {
       	Variables.runTime.toElapsedString();
       	
       	Variables.levelsGained = (Skills.getLevel(Skills.ATTACK)
